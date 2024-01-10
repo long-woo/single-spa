@@ -9,15 +9,18 @@
     ".": {
       "development": {
         "import": "./lib/es2015/esm/single-spa.dev.js",
-        "require": "./lib/es2015/umd/single-spa.dev.cjs"
+        "require": "./lib/es2015/umd/single-spa.dev.cjs",
+        "types": "./typings/single-spa.d.ts"
       },
       "production": {
         "import": "./lib/es2015/esm/single-spa.min.js",
-        "require": "./lib/es2015/umd/single-spa.min.cjs"
+        "require": "./lib/es2015/umd/single-spa.min.cjs",
+        "types": "./typings/single-spa.d.ts"
       },
       "default": {
         "import": "./lib/es2015/esm/single-spa.min.js",
-        "require": "./lib/es2015/umd/single-spa.min.cjs"
+        "require": "./lib/es2015/umd/single-spa.min.cjs",
+        "types": "./typings/single-spa.d.ts"
       }
     },
     "./package.json": "./package.json",
